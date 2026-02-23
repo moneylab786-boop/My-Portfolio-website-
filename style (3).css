@@ -1,0 +1,148 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+    scroll-behavior:smooth;
+}
+
+/* NAVBAR */
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 50px;
+    background:#111827;
+    position:sticky;
+    top:0;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:30px;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#38bdf8;
+}
+
+.logo{
+    color:#38bdf8;
+}
+
+/* HOME */
+.home{
+    height:90vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.home h1{
+    font-size:40px;
+}
+
+.home span{
+    color:#38bdf8;
+}
+
+.home button{
+    margin-top:20px;
+    padding:12px 25px;
+    border:none;
+    background:#38bdf8;
+    color:black;
+    cursor:pointer;
+    border-radius:25px;
+    transition:0.3s;
+}
+
+.home button:hover{
+    background:white;
+}
+
+/* SECTIONS */
+section{
+    padding:80px 20px;
+    text-align:center;
+}
+
+/* ABOUT */
+.about{
+    background:#1e293b;
+}
+
+/* SKILLS */
+.skill-box{
+    max-width:400px;
+    margin:20px auto;
+    text-align:left;
+}
+
+.bar{
+    background:#334155;
+    height:8px;
+    border-radius:20px;
+}
+
+.fill{
+    height:8px;
+    border-radius:20px;
+}
+
+.html{width:90%; background:#38bdf8;}
+.css{width:85%; background:#22c55e;}
+.js{width:75%; background:#facc15;}
+
+/* CONTACT */
+.contact{
+    background:#1e293b;
+}
+
+form{
+    max-width:400px;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+input, textarea{
+    padding:12px;
+    border:none;
+    border-radius:8px;
+}
+
+button{
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    background:#38bdf8;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:white;
+}
+
+footer{
+    padding:20px;
+    background:#111827;
+    text-align:center;
+    font-size:14px;
+}
